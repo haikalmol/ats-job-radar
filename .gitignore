@@ -1,0 +1,7 @@
+node_modules/
+profile.js
+companies.txt
+live-boards.json
+tested.json
+results.json
+.env

@@ -1,0 +1,16 @@
+{
+  "name": "ats-job-radar",
+  "version": "1.0.0",
+  "description": "Reads job postings from companies' own ATS APIs and rejects the ones you cannot actually apply for. No scraping, no dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node filter.test.js",
+    "discover": "node discover.js",
+    "discover:sample": "node discover.js --limit=50 --shuffle",
+    "run": "node run.js",
+    "run:verbose": "node run.js --verbose"
+  },
+  "keywords": ["job-search", "ats", "greenhouse", "lever", "ashby", "automation"]
+}

@@ -1,0 +1,5 @@
+Vercel
+Supabase
+Palantir
+Zapier
+n8n
